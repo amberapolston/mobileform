@@ -1,0 +1,199 @@
+@media screen and (max-width: 480px) {
+  body {
+    margin: 0;
+    font-family: "Hind", sans-serif;
+  }
+
+  .icons {
+    color: white;
+    background-color: #4b01d1;
+    display: grid;
+    grid-template-columns: [first] 18rem [line2] 2rem [line3] 2rem [line4] 2rem[end];
+  }
+
+  .gridone {
+    grid-column: 2 / 3;
+  }
+
+  .icons i {
+    margin: 0.438rem;
+  }
+  nav {
+    color: white;
+  }
+
+  .navbar {
+    background-color: #6202ee;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    width: 100%;
+  }
+
+  .ellipsis {
+    margin-right: 15px;
+  }
+
+  .bars {
+    margin-left: 15px;
+  }
+
+  .container i {
+    color: gray;
+  }
+
+  .contacts {
+    font-size: 2.188rem;
+  }
+
+  .namebar {
+    margin-top: 0.938rem;
+  }
+
+  .namebar,
+  .email,
+  .birthday {
+    display: grid;
+    grid-template-columns: [first] 3.125rem [line2] 12.5rem[end];
+    align-items: center;
+    margin-left: 0.938rem;
+    margin-right: 0313rem;
+  }
+
+  .namebar input,
+  .citydiv input,
+  .email input,
+  .birthday input {
+    font-size: 1.2rem;
+    padding: 0.9rem;
+    width: 17.5rem;
+  }
+
+  .phonenumber input,
+  .phonenumber select,
+  .citydiv input,
+  .email text {
+    border-radius: 0.25rem;
+    border: solid 0.063rem gray;
+  }
+
+  .namebar i,
+  .phonebar i,
+  .email i,
+  .birthday i {
+    margin-left: 0.938rem;
+    margin-right: 0.938rem;
+    font-size: 1.2rem;
+  }
+
+  .phonebar {
+    display: grid;
+    grid-template-columns: [first] 3.125rem [line2] 12rem [line3] 5rem[end];
+    margin: 0.938rem;
+    align-items: center;
+  }
+
+  .phonebar input {
+    font-size: 1.2rem;
+    padding: 0.9rem;
+    width: 9.063rem;
+  }
+
+  .phonebar select {
+    font-size: 1.2rem;
+    padding: 0.9rem;
+    width: 7.25rem;
+    color: gray;
+  }
+
+  .phonenumber n {
+    width: 6.25rem;
+  }
+
+  ul {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+  }
+
+  .name,
+  .address input,
+  .statezip input,
+  .statezip select,
+  .birthday input {
+    background-color: #e8e8e8;
+    border-bottom: 0.063rem solid gray;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0.25rem;
+  }
+
+  .address {
+    display: grid;
+    grid-template-columns: [first] 3.125rem [line2] 12.5rem[end];
+    align-items: center;
+    margin-left: 0.938rem;
+    margin-right: 0.938rem;
+  }
+
+  .address input {
+    font-size: 1.2rem;
+    padding: 0.9rem;
+    width: 17.5rem;
+    margin-left: 0;
+    margin-right: 0.938rem;
+  }
+
+  .address i {
+    margin-left: 0.938rem;
+    margin-right: 0.938rem;
+    font-size: 1.2rem;
+  }
+
+  .citydiv {
+    margin-top: 0.938rem;
+    align-items: center;
+    margin-left: 3.938rem;
+    display: grid;
+    margin-right: 0.938rem;
+  }
+
+  .statezip {
+    display: grid;
+    grid-template-columns: [first] 2.7rem [line2] 10rem [line3] 10rem[end];
+    margin: 0.938rem;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+
+  .statezip select {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 1.2rem;
+    padding: 0.9rem;
+    margin-right: 0.313rem;
+    margin-left: 0.313rem;
+    color: gray;
+  }
+
+  .statezip input {
+    font-size: 1.2rem;
+    padding: 0.9rem;
+    margin-left: 0.313rem;
+  }
+
+  .email input,
+  .birthday input {
+    margin-left: 0;
+    color: gray;
+  }
+
+  .birthday input {
+    margin-top: 0.938rem;
+  }
+}
